@@ -2746,18 +2746,9 @@ const Body = () => {
         <div className="body">
             <div className="search" >search</div>
             <div className="res-container">
-                {/* resturent Card will come here */}
-                {/* <ResturentCard name="Meghna Foods" cusions="Briyani, North Indian,Asian" /> */}
                 {
-                    //  <ResturentCard resData={restaurants[0]} />
                     restaurants.map(restu => <ResturentCard resData={restu} />)
                 }
-                {/* <ResturentCard name=" Raj Foods" cusions="Briyani, North Indian,Asian" />
-                <ResturentCard name="Disha Foods" cusions="Briyani, North Indian,Asian" />
-                <ResturentCard name="Prince Foods" cusions="Briyani, North Indian,Asian" />
-                <ResturentCard name="Mohit Foods" cusions="Briyani, North Indian,Asian" />
-                <ResturentCard name="Vikash Foods" cusions="Briyani, North Indian,Asian" />
-                <ResturentCard name="Ankit Foods" cusions="Briyani, North Indian,Asian" /> */}
             </div>
         </div>
     )
