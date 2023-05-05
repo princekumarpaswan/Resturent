@@ -28,6 +28,7 @@ body{
     padding: 5px;
     width: 200px;
     border: 1px solid black;
+    line-height: 20px
 }
 .res-card:hover{
     transition: box-shadow 0.3s;
