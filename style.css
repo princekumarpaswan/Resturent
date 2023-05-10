@@ -55,3 +55,9 @@ body{
 .dish-img{
     width: 200px;
 }
+
+.filter-btn{
+    margin: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
