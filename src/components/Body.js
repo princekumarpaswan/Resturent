@@ -1,5 +1,6 @@
 import ResturentCard from "./ResturentCard"
 import restaurants from "./util/mockData"
+import { restaurants } from "./util/mockData"
 
 const Body = () => {
     return (
