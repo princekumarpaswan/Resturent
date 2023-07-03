@@ -1,4 +1,4 @@
-export const restaurants = [
+const restaurants = [
     {
         "info": {
             "id": "388064",
@@ -12,7 +12,7 @@ export const restaurants = [
                 "Ice Cream",
                 "Ice Cream Cakes"
             ],
-            "avgRating": 4.5,
+            "avgRating": 3.5,
             "veg": true,
             "feeDetails": {
                 "restaurantId": "388064",
@@ -121,7 +121,7 @@ export const restaurants = [
                 "Indian",
                 "Biryani"
             ],
-            "avgRating": 4,
+            "avgRating": 3,
             "feeDetails": {
                 "restaurantId": "101421",
                 "fees": [
