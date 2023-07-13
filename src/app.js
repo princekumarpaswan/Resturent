@@ -9,9 +9,9 @@ import Body from "./components/Body"
 
 const Applayout = () => {
     return (
-        <div className="app">
+        <div className="app mx-auto">
             <Header />
-            <Body />
+            <  Body />
         </div>
     )
 }

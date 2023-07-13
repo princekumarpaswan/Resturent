@@ -1,28 +1,50 @@
 import ResturentCard from "./ResturentCard"
-import restaurants from "./util/mockData"
-import { useState } from "react";
+// import restaurants from "./util/mockData"  ----- now we are taking data form live data so we dont need any mock data
+import { useState, useEffect } from "react";
 
 
 const Body = () => {
     // Local state variable --- Sper powervariable
-    const [listRestarunt, setListRestaurent] = useState(restaurants)
+    const [listRestarunt, setListRestaurent] = useState([])
+
+
+    useEffect(() => {
+        fetchData();
+    }, []);
+
+    const fetchData = async () => {
+        const data = await fetch(
+            "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6126255&lng=77.04108959999999&page_type=DESKTOP_WEB_LISTING"
+        )
+        const jsonData = await data.json();
+
+        console.log(jsonData);
+        setListRestaurent(jsonData.data.cards[2].data.data.cards)
+    };
+
+
+
+
 
     return (
 
-        <div className="body">
+        <div className="body mx">
             <div className="filter">
 
                 <button className="filter-btn" onClick={() => {
                     // logic filter
                     setListRestaurent(restaurants.filter(
-                        (res) => res.info.avgRating > 4
+
+                        (res) => res.data.avgRating > "4"
+
                     ))
                 }} >Top Rated Restaurants</button>
 
             </div>
             <div className="res-container">
                 {
-                    listRestarunt.map(restu => <ResturentCard key={restu.info.id} resData={restu} />)
+                    listRestarunt.map(restu => <ResturentCard key={restu.data.id} resData={restu} />)
+
                 }
             </div>
         </div>

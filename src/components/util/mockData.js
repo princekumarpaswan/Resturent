@@ -1,6 +1,6 @@
 const restaurants = [
     {
-        "info": {
+        "data": {
             "id": "388064",
             "name": "Kwality Walls Frozen Dessert and Ice Cream Shop",
             "cloudinaryImageId": "r14idp9f6hkxlnb8wmv6",
@@ -65,7 +65,7 @@ const restaurants = [
                     }
                 }
             },
-            "aggregatedDiscountInfoV3": {
+            "aggregatedDiscountdataV3": {
                 "header": "50% OFF",
                 "subHeader": "UPTO ₹100"
             },
@@ -110,7 +110,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "101421",
             "name": "Mughal Arsalan Biryani",
             "cloudinaryImageId": "dqryaxhlba4okzyzcx5z",
@@ -171,7 +171,7 @@ const restaurants = [
                     }
                 }
             },
-            "aggregatedDiscountInfoV3": {
+            "aggregatedDiscountdataV3": {
                 "header": "60% OFF",
                 "subHeader": "UPTO ₹120"
             },
@@ -216,7 +216,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "8587",
             "name": "Royal Indian Hotel - Since 1905",
             "cloudinaryImageId": "oblqcc3ecvw4q9f7ukec",
@@ -264,7 +264,7 @@ const restaurants = [
 
             },
             "isOpen": true,
-            "aggregatedDiscountInfoV2": {
+            "aggregatedDiscountdataV2": {
 
             },
             "type": "F",
@@ -322,7 +322,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "123459",
             "name": "Ganguram-Beadon Street",
             "cloudinaryImageId": "n8xerwgcs5wse89gyqri",
@@ -372,7 +372,7 @@ const restaurants = [
 
             },
             "isOpen": true,
-            "aggregatedDiscountInfoV2": {
+            "aggregatedDiscountdataV2": {
 
             },
             "type": "F",
@@ -430,7 +430,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "565580",
             "name": "KFC",
             "cloudinaryImageId": "56c9ab92bd79745fd152a30fa2525426",
@@ -494,7 +494,7 @@ const restaurants = [
                     }
                 }
             },
-            "aggregatedDiscountInfoV3": {
+            "aggregatedDiscountdataV3": {
                 "header": "40% OFF",
                 "subHeader": "UPTO ₹80"
             },
@@ -539,7 +539,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "8693",
             "name": "New Paul Dhaba - Veggie Hub",
             "cloudinaryImageId": "wmlntcabugrcpwx12j1p",
@@ -603,7 +603,7 @@ const restaurants = [
                     }
                 }
             },
-            "aggregatedDiscountInfoV3": {
+            "aggregatedDiscountdataV3": {
                 "header": "60% OFF",
                 "subHeader": "UPTO ₹120"
             },
@@ -648,7 +648,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "352389",
             "name": "Bhikharam Chandmal - Phoolbagan",
             "cloudinaryImageId": "4939da053d3cf3e9c324cc577dcada68",
@@ -711,7 +711,7 @@ const restaurants = [
                     }
                 }
             },
-            "aggregatedDiscountInfoV3": {
+            "aggregatedDiscountdataV3": {
                 "header": "10% OFF",
                 "subHeader": "UPTO ₹40"
             },
@@ -756,7 +756,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "8698",
             "name": "New Paul Dhaba",
             "cloudinaryImageId": "lelitcdusinvpdltscvu",
@@ -817,7 +817,7 @@ const restaurants = [
                     }
                 }
             },
-            "aggregatedDiscountInfoV3": {
+            "aggregatedDiscountdataV3": {
                 "header": "60% OFF",
                 "subHeader": "UPTO ₹120"
             },
@@ -862,7 +862,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "19515",
             "name": "Mezban Ripon Street",
             "cloudinaryImageId": "jaj2dspo6b2pfvflxiap",
@@ -925,7 +925,7 @@ const restaurants = [
                     }
                 }
             },
-            "aggregatedDiscountInfoV3": {
+            "aggregatedDiscountdataV3": {
                 "header": "20% OFF",
                 "subHeader": "UPTO ₹50"
             },
@@ -970,7 +970,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "41599",
             "name": "Mio Amore - The Cake Shop",
             "cloudinaryImageId": "8bf25e6cafe30c7e7c9c8f31f628fe96",
@@ -1020,7 +1020,7 @@ const restaurants = [
 
             },
             "isOpen": true,
-            "aggregatedDiscountInfoV2": {
+            "aggregatedDiscountdataV2": {
 
             },
             "type": "F",
@@ -1078,7 +1078,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "256298",
             "name": "KALIGODAM",
             "cloudinaryImageId": "golc7jkhd2idldqolgz2",
@@ -1125,7 +1125,7 @@ const restaurants = [
 
             },
             "isOpen": true,
-            "aggregatedDiscountInfoV2": {
+            "aggregatedDiscountdataV2": {
 
             },
             "type": "F",
@@ -1183,7 +1183,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "208617",
             "name": "Gupta Brothers The Abarkhabo Shoppe",
             "cloudinaryImageId": "o6ahtv5y0sdtdo1b7gqt",
@@ -1230,7 +1230,7 @@ const restaurants = [
 
             },
             "isOpen": true,
-            "aggregatedDiscountInfoV2": {
+            "aggregatedDiscountdataV2": {
 
             },
             "type": "F",
@@ -1288,7 +1288,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "103065",
             "name": "Darshana",
             "cloudinaryImageId": "l6rhfijqx3pu3x63jqlt",
@@ -1337,7 +1337,7 @@ const restaurants = [
 
             },
             "isOpen": true,
-            "aggregatedDiscountInfoV2": {
+            "aggregatedDiscountdataV2": {
 
             },
             "type": "F",
@@ -1395,7 +1395,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "86185",
             "name": "K C Das",
             "cloudinaryImageId": "xdanjvemztpshnentzrq",
@@ -1443,7 +1443,7 @@ const restaurants = [
 
             },
             "isOpen": true,
-            "aggregatedDiscountInfoV2": {
+            "aggregatedDiscountdataV2": {
 
             },
             "type": "F",
@@ -1501,7 +1501,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "384147",
             "name": "Bake Me Good",
             "cloudinaryImageId": "iyxvyevsufrqrojgsuss",
@@ -1548,7 +1548,7 @@ const restaurants = [
 
             },
             "isOpen": true,
-            "aggregatedDiscountInfoV2": {
+            "aggregatedDiscountdataV2": {
 
             },
             "type": "F",
@@ -1606,7 +1606,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "543501",
             "name": "Bhatura Singh",
             "cloudinaryImageId": "bbh6ql2yyd7qsin7hhtd",
@@ -1675,7 +1675,7 @@ const restaurants = [
                     }
                 }
             },
-            "aggregatedDiscountInfoV3": {
+            "aggregatedDiscountdataV3": {
                 "header": "20% OFF",
                 "subHeader": "UPTO ₹50"
             },
@@ -1720,7 +1720,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "17620",
             "name": "ATS Arun Tea Stall",
             "cloudinaryImageId": "zh4yj19zryudrvp5czvc",
@@ -1781,7 +1781,7 @@ const restaurants = [
                     }
                 }
             },
-            "aggregatedDiscountInfoV3": {
+            "aggregatedDiscountdataV3": {
                 "header": "30% OFF",
                 "subHeader": "UPTO ₹75"
             },
@@ -1826,7 +1826,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "460653",
             "name": "Bhikharam Chandmal Rajuji - RamMandir",
             "locality": "Burrabazar",
@@ -1873,7 +1873,7 @@ const restaurants = [
 
             },
             "isOpen": true,
-            "aggregatedDiscountInfoV2": {
+            "aggregatedDiscountdataV2": {
 
             },
             "type": "F",
@@ -1931,7 +1931,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "80507",
             "name": "The Yellow Straw",
             "cloudinaryImageId": "gwo9jkyixel41ksslrbo",
@@ -2000,7 +2000,7 @@ const restaurants = [
                     }
                 }
             },
-            "aggregatedDiscountInfoV3": {
+            "aggregatedDiscountdataV3": {
                 "header": "30% OFF",
                 "subHeader": "UPTO ₹75"
             },
@@ -2045,7 +2045,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "340615",
             "name": "Bhim Nag's Brother Sreenath Nag",
             "cloudinaryImageId": "dfe2eed8f8a972016c5ec013061f6d46",
@@ -2106,7 +2106,7 @@ const restaurants = [
                     }
                 }
             },
-            "aggregatedDiscountInfoV3": {
+            "aggregatedDiscountdataV3": {
                 "header": "₹125 OFF",
                 "subHeader": "ABOVE ₹249",
                 "discountTag": "FLAT DEAL"
@@ -2152,7 +2152,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "609684",
             "name": "RED CHILLIES",
             "cloudinaryImageId": "svx8v4pejriivga8rgls",
@@ -2204,7 +2204,7 @@ const restaurants = [
 
             },
             "isOpen": true,
-            "aggregatedDiscountInfoV2": {
+            "aggregatedDiscountdataV2": {
 
             },
             "type": "F",
@@ -2262,7 +2262,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "18359",
             "name": "Apu's Kitchen Phool Bagan",
             "cloudinaryImageId": "e49fwbcb7szcnnj44sht",
@@ -2323,7 +2323,7 @@ const restaurants = [
                     }
                 }
             },
-            "aggregatedDiscountInfoV3": {
+            "aggregatedDiscountdataV3": {
                 "header": "50% OFF",
                 "subHeader": "UPTO ₹100"
             },
@@ -2368,7 +2368,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "614731",
             "name": "That Donut Shop",
             "cloudinaryImageId": "nm5fqc7p5byfzeisbedf",
@@ -2429,7 +2429,7 @@ const restaurants = [
                     }
                 }
             },
-            "aggregatedDiscountInfoV3": {
+            "aggregatedDiscountdataV3": {
                 "header": "15% OFF",
                 "subHeader": "UPTO ₹45"
             },
@@ -2474,7 +2474,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "176970",
             "name": "edabba",
             "cloudinaryImageId": "wljcy2sih7te142j23as",
@@ -2537,7 +2537,7 @@ const restaurants = [
                     }
                 }
             },
-            "aggregatedDiscountInfoV3": {
+            "aggregatedDiscountdataV3": {
                 "header": "30% OFF",
                 "subHeader": "UPTO ₹75"
             },
@@ -2582,7 +2582,7 @@ const restaurants = [
         }
     },
     {
-        "info": {
+        "data": {
             "id": "18360",
             "name": "Little Pleasures ",
             "cloudinaryImageId": "r7s4ivwuoylstthvp2v3",
@@ -2654,7 +2654,7 @@ const restaurants = [
                     }
                 }
             },
-            "aggregatedDiscountInfoV3": {
+            "aggregatedDiscountdataV3": {
                 "header": "20% OFF",
                 "subHeader": "UPTO ₹50"
             },
