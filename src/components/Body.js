@@ -1,6 +1,7 @@
 import ResturentCard from "./ResturentCard"
 // import restaurants from "./util/mockData"  ----- now we are taking data form live data so we dont need any mock data
 import { useState, useEffect } from "react";
+import Simmer from "./Simmer";
 
 
 const Body = () => {
@@ -18,12 +19,19 @@ const Body = () => {
         )
         const jsonData = await data.json();
 
-        console.log(jsonData);
-        setListRestaurent(jsonData.data.cards[2].data.data.cards)
+        // below mentntion is not the goway to write code 
+        // setListRestaurent(jsonData.data.cards[2].data.data.cards)
+
+        // So we are using this way of optional channing to write code 
+        setListRestaurent(jsonData?.data?.cards[2]?.data?.data?.cards)
+
     };
 
 
 
+    if (listRestarunt.length === 0) {
+        return < Simmer />
+    }
 
 
     return (
@@ -33,9 +41,9 @@ const Body = () => {
 
                 <button className="filter-btn" onClick={() => {
                     // logic filter
-                    setListRestaurent(restaurants.filter(
+                    setListRestaurent(listRestarunt.filter(
 
-                        (res) => res.data.avgRating > "4"
+                        (res) => res.data.avgRating >= 4
 
                     ))
                 }} >Top Rated Restaurants</button>
