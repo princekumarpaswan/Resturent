@@ -14,8 +14,7 @@ const Body = () => {
     }, []);
 
     const fetchData = async () => {
-        const data = await fetch(
-            "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6126255&lng=77.04108959999999&page_type=DESKTOP_WEB_LISTING"
+        const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6126255&lng=77.04108959999999&page_type=DESKTOP_WEB_LISTING"
         )
         const jsonData = await data.json();
 
@@ -29,12 +28,13 @@ const Body = () => {
 
 
 
-    if (listRestarunt.length === 0) {
-        return < Simmer />
-    }
+    // if (listRestarunt.length === 0) {
+    //     return 
+    // }
 
+    // condational rendring
 
-    return (
+    return listRestarunt.length === 0 ? < Simmer /> : (
 
         <div className="body mx">
             <div className="filter">
